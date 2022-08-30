@@ -11,7 +11,6 @@
 		C418D9FE28B81AB100911342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C418D9FD28B81AB100911342 /* ContentView.swift */; };
 		C418DA0028B81AB300911342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C418D9FF28B81AB300911342 /* Assets.xcassets */; };
 		C418DA0328B81AB300911342 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C418DA0228B81AB300911342 /* Preview Assets.xcassets */; };
-		C418DA0528B81AB300911342 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C418DA0428B81AB300911342 /* Persistence.swift */; };
 		C418DA0828B81AB300911342 /* Memorize.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C418DA0628B81AB300911342 /* Memorize.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		C418D9FD28B81AB100911342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C418D9FF28B81AB300911342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C418DA0228B81AB300911342 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C418DA0428B81AB300911342 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C418DA0728B81AB300911342 /* Memorize.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memorize.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				C418D9FB28B81AB100911342 /* MemorizeApp.swift */,
 				C418D9FD28B81AB100911342 /* ContentView.swift */,
 				C418D9FF28B81AB300911342 /* Assets.xcassets */,
-				C418DA0428B81AB300911342 /* Persistence.swift */,
 				C418DA0628B81AB300911342 /* Memorize.xcdatamodeld */,
 				C418DA0128B81AB300911342 /* Preview Content */,
 			);
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C418DA0528B81AB300911342 /* Persistence.swift in Sources */,
 				C418DA0828B81AB300911342 /* Memorize.xcdatamodeld in Sources */,
 				C418D9FE28B81AB100911342 /* ContentView.swift in Sources */,
 				C418D9FC28B81AB100911342 /* MemorizeApp.swift in Sources */,
