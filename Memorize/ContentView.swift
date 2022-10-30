@@ -10,13 +10,9 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 20)
-                .stroke(lineWidth: 3)
-            Text("Hello Ramazan")
-        }
-        .padding(.horizontal)
-        .foregroundColor(.red)
+        Text("Hello SwiftUI!")
+            .foregroundColor(Color.yellow)
+            .padding()
     }
 }
 
