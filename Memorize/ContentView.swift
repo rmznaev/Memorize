@@ -10,9 +10,16 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello SwiftUI!")
-            .foregroundColor(Color.yellow)
-            .padding()
+        ZStack {
+            RoundedRectangle(cornerRadius: 20)
+                .stroke(lineWidth: 3)
+                .padding(.horizontal)
+                .foregroundColor(.red)
+            
+            Text("Hello SwiftUI!")
+                .foregroundColor(.orange)
+                .padding()
+        }
     }
 }
 
