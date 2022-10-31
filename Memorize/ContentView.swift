@@ -13,13 +13,10 @@ struct ContentView: View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
                 .stroke(lineWidth: 3)
-                .padding(.horizontal)
-                .foregroundColor(.red)
-            
             Text("Hello SwiftUI!")
-                .foregroundColor(.orange)
-                .padding()
         }
+        .padding(.horizontal)
+        .foregroundColor(.red)
     }
 }
 
